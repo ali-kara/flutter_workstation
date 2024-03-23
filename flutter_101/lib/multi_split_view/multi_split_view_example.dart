@@ -65,9 +65,9 @@ class MultiSplitViewExampleState extends State<MultiSplitViewExample> {
     );
 
     final List<Widget> children = <Widget>[
-      MyBottomSheet(title: 'ss'),
-      MyBottomSheet(title: 'ss'),
-      MyBottomSheet(title: 'ss')
+      const MyBottomSheet(title: 'ss'),
+      const MyBottomSheet(title: 'ss'),
+      const MyBottomSheet(title: 'ss')
     ];
 
     MultiSplitView multiSplitView = MultiSplitView(
